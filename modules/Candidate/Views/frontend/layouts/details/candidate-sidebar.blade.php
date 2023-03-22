@@ -100,7 +100,7 @@
     </div>
 @endif
 
-<div class="sidebar-widget contact-widget">
+{{--<div class="sidebar-widget contact-widget">
     <h4 class="widget-title">{{__('Contact Us')}}</h4>
     <div class="widget-content">
         <!-- Comment Form -->
@@ -135,4 +135,4 @@
             </form>
         </div>
     </div>
-</div>
+</div>--}}

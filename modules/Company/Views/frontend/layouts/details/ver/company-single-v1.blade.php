@@ -45,6 +45,14 @@
                     <div class="job-detail">
                         <h4>{{__("About Company")}}</h4>
                         {!! $translation->about !!}
+
+                        <!-- Virtual Tour -->
+                        <div class="title-box">
+                            <h3>Virtual Tour of Our Office</h3>
+                        </div>
+                        <div class="mt-4 mb-4">
+                            @include('Company::frontend.layouts.details.virtual-tour')
+                        </div>
                     </div>
                     <!-- Related Jobs -->
                     <div class="related-jobs">
@@ -70,7 +78,7 @@
                 </div>
                 <div class="sidebar-column col-lg-4 col-md-12 col-sm-12">
                     @include('Company::frontend.layouts.details.companies-sidebar')
-                    @include('Job::frontend.layouts.details.contact',['origin_id'=>$row->owner_id,'job_id'=>false])
+                    {{--@include('Job::frontend.layouts.details.contact',['origin_id'=>$row->owner_id,'job_id'=>false])--}}
                 </div>
             </div>
         </div>

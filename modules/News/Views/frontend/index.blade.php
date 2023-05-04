@@ -1,4 +1,5 @@
 @extends('layouts.app')
+<!-- Blog posts index extending app layout -->
 @section('head')
     <link href="{{ asset('dist/frontend/module/news/css/news.css?_ver='.config('app.version')) }}" rel="stylesheet">
     <link href="{{ asset('dist/frontend/css/app.css?_ver='.config('app.version')) }}" rel="stylesheet">
